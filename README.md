@@ -1,4 +1,4 @@
-# Create, deploy and test a new API using API Connect 
+# Create, deploy and test APIs using API Connect 
 [IBM® API Connect](https://www.ibm.com/cloud/api-connect)is a complete, intuitive and scalable API platform that lets developers create, expose, manage and monetize APIs across clouds.
 
 ![](https://www.ibm.com/docs/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/apic_capabilities.png)
