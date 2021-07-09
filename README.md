@@ -1,8 +1,9 @@
 # Create, deploy and test APIs using API Connect 
-[IBM® API Connect](https://www.ibm.com/cloud/api-connect)is a complete, intuitive and scalable API platform that lets developers create, expose, manage and monetize APIs across clouds.
+[IBM® API Connect](https://www.ibm.com/cloud/api-connect)
+ is a complete, intuitive and scalable API platform that lets developers create, expose, manage and monetize APIs across clouds.
 
-<p align="center">
-<img width="60%" height="60%" src="./images/img1.png">
+<p align="left">
+<img width="75%" height="75%" src="./images/img1.png">
 </p>
 
 In this lab you will create a new API using the OpenAPI definition of an existing RESTful web-service that gets realtime stock quotes. You will then test the API by deploying it in the Developer Portal. The app uses the API definition that you will create to get realtime stock quotes.
