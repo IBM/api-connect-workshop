@@ -14,17 +14,22 @@ In this workshop we will get you started with creating a Lite API Connect Servic
 ### Prerequisites
 Register and create an [IBM Cloud Account](https://ibm.biz/ibm-tcs-workshop) 
 
-### Setting up API Connect Service 
+## Setting up API Connect Service 
 
-#### Step 1: 
+### Step 1: 
 Go to [IBM Cloud Catalog](https://cloud.ibm.com/catalog) and search for API Connect.
 ![](./images/img2.png)
 
-#### Step 2: 
+### Step 2: 
 Select `Lite` Plan and give your service a name. Click on the `Create` Button to create your Lite service
 ![](./images/img3.png)
 
-#### Step 3: 
+### Step 3: 
 On the IBM Cloud Dashboard, in the Cloud Foundry Services list, click the API Connect service instance. The API Connect dashboard is displayed.
 ![](./images/img4.png)
+
+## Lab 
+Now that we have our service set up we can move on to the lab
+
+- [Lab: Create, deploy and test a new API using the API Connect Developer Toolkit]()
 
