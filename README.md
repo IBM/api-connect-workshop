@@ -6,7 +6,9 @@
 <img width="75%" height="75%" src="./images/img1.png">
 </p>
 
-In this lab you will create a new API using the OpenAPI definition of an existing RESTful web-service that gets realtime stock quotes. You will then test the API by deploying it in the Developer Portal. The app uses the API definition that you will create to get realtime stock quotes.
+IBM API Connect on IBM Cloud provides a unified user experience across the API lifecycle and helps you to create and manage your APIs with business-level controls by setting different levels of security and visibility while sharing APIs with application developers. (You can also use IBM API Connect that is included in IBM Cloud Pak for Integration to manage your APIs.)
+
+In this [lab](https://github.com/IBM/api-connect-workshop/blob/main/lab.md) you will create a new API using the OpenAPI definition of an existing RESTful web-service that gets realtime stock quotes. You will then test the API by deploying it in the Developer Portal. The app uses the API definition that you will create to get realtime stock quotes.
 
 ## Getting Started: 
 In this workshop we will get you started with creating a Lite API Connect Service on IBM Cloud 
@@ -31,5 +33,5 @@ On the IBM Cloud Dashboard, in the Cloud Foundry Services list, click the API Co
 ## Lab 
 Now that we have our service set up we can move on to the lab
 
-- [Lab: Create, deploy and test a new API using the API Connect Developer Toolkit]()
+- [Lab: Create, deploy and test a new API using the API Connect Developer Toolkit](https://github.com/IBM/api-connect-workshop/blob/main/lab.md)
 
