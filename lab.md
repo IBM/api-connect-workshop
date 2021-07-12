@@ -64,7 +64,7 @@ After importing the existing API, the first step is to configure basic security 
 ![](./images/img10.png)
 > Save
 
-### 4 Test the API 
+### 4. Test the API 
 In the API designer, you have the ability to test the API immediately after creation in the Assemble view.
 
 On the top Navigation, click **Assemble**.
