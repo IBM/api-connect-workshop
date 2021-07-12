@@ -25,6 +25,16 @@ Let’s get started.
 
 ![](./images/img6.png)
 
-- Click on `Select File` and select [stock-quote-api.yaml]() 
+- Click on `Select File` and select [stock-quote-api.yaml](https://github.com/IBM/api-connect-workshop/blob/main/stock-quote-api.yaml) and `Import`
 
+3. Configure the API 
+After importing the existing API, the first step is to configure basic security before exposing it to other developers. By creating a client key you are able to identify the app using the services. Next, we will define the backend endpoints where the API is actually running. API Connect supports pointing to multiple backend endpoints to match your multiple build stage environments.
+
+3.1 Scroll down the screen and replace the Host address with $(catalog.host) to indicate that you want calls to the external API to go through API Connect.
+
+![](./images/img7.png)
+
+> Click Save 
+
+4. 
 
