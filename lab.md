@@ -65,4 +65,39 @@ After importing the existing API, the first step is to configure basic security 
 > Save
 
 #### 4 Test the API 
+In the API designer, you have the ability to test the API immediately after creation in the Assemble view.
+
+On the top Navigation, click *Assemble*.
+
+- Click Create assembly
+- Drag Invoke Policy
+![](./images/img11.png)
+
+- Click invoke in the flow designer. Note the window on the right with the configuration. The invoke node calls the target-url (ie the external service).
+
+*4.1* Modify the URL field to include the request path passed in by the caller as well by appending `$(request.path)` to the URL. When you're done the field should be set to:
+
+``` $(target-url)$(request.path)```
+![](./images/img12.png)
+
+> Save 
+
+*4.3* Click the play icon as indicated in the image below.
+
+![](./images/img13.png)
+
+*4.4* From the >> button next to the Home icon, select Drafts and on the `Product` tab add a New Product. 
+- Call it `Stock Quote` 
+![](./images/img14.png)
+
+- Go back to API tab and `Assemble` tab and when you press play you should see sandbox and a button to republish prodcuct using `Stock Quote 1.0.0` . 
+![](./images/img15.png)
+
+- Click Next and Select an Operation and click `Invoke` 
+![](./images/img16.png)
+
+You should see data from api and status 200 OK
+
+Congratulations you have successfully created your first API in API connect Dashboard
+
 
