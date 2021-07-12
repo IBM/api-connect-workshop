@@ -94,6 +94,7 @@ On the top Navigation, click *Assemble*.
 ![](./images/img15.png)
 
 - Click Next and Select an Operation and click `Invoke` 
+
 ![](./images/img16.png)
 
 You should see data from api and status 200 OK
