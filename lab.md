@@ -14,11 +14,11 @@ Let’s get started.
 
 ## Steps 
 
-#### 1. Go to API Conect Service
+### 1. Go to API Conect Service
  On the IBM Cloud Dashboard, in the Cloud Foundry Services list, click the API Connect service instance. The API Connect dashboard is displayed.
 ![](./images/img4.png)
 
-#### 2. Add API in API Connect 
+### 2. Add API in API Connect 
     - Click the Dashboard tab 
     - From the `>>` button next to the Home icon, click Drafts.
     - Click the APIs tab.
@@ -28,7 +28,7 @@ Let’s get started.
 
 - Click on `Select File` and select [stock-quote-api.yaml](https://github.com/IBM/api-connect-workshop/blob/main/stock-quote-api.yaml) and `Import`
 
-#### 3. Configure the API
+### 3. Configure the API
 
 After importing the existing API, the first step is to configure basic security before exposing it to other developers. By creating a client key you are able to identify the app using the services. Next, we will define the backend endpoints where the API is actually running. API Connect supports pointing to multiple backend endpoints to match your multiple build stage environments.
 
@@ -64,7 +64,7 @@ After importing the existing API, the first step is to configure basic security 
 ![](./images/img10.png)
 > Save
 
-#### 4 Test the API 
+### 4 Test the API 
 In the API designer, you have the ability to test the API immediately after creation in the Assemble view.
 
 On the top Navigation, click **Assemble**.
