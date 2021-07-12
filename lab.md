@@ -32,14 +32,14 @@ Let’s get started.
 
 After importing the existing API, the first step is to configure basic security before exposing it to other developers. By creating a client key you are able to identify the app using the services. Next, we will define the backend endpoints where the API is actually running. API Connect supports pointing to multiple backend endpoints to match your multiple build stage environments.
 
- *3.1* Scroll down the screen and replace the Host address with $(catalog.host) to indicate that you want calls to the external API to go through API Connect.
+ **3.1** Scroll down the screen and replace the Host address with $(catalog.host) to indicate that you want calls to the external API to go through API Connect.
 
 ![](./images/img7.png)
 
 > Click Save 
 
-*3.2*  In the Edit API screen click *Security Definitions* in the left navigation. 
-- In the *Security Definition* section, click the *Add* button on the right and select `API Key`. This will open a new view titled `api-key-1 (API Key)`.
+**3.2**  In the Edit API screen click **Security Definitions** in the left navigation. 
+- In the **Security Definition** section, click the **Add** button on the right and select `API Key`. This will open a new view titled `api-key-1 (API Key)`.
 
 - In the Name field, type `client-id`
 - Ensure Parameter name is `X-IBM-Client-Id`
@@ -48,13 +48,13 @@ After importing the existing API, the first step is to configure basic security 
 
 ![](./images/img8.png)
 
-*3.3* Click on *Security* on the left nav and add `client-id(API-KEY)`
+**3.3** Click on **Security** on the left nav and add `client-id(API-KEY)`
 
 ![](./images/img8.png)
 
 > Save
 
-*3.4* Next you'll define the endpoint for the external API. Click on Properties in the left menu.
+**3.4** Next you'll define the endpoint for the external API. Click on Properties in the left menu.
 
 - Add New Property, should be called `new-property-1`
 - Choose the sandbox catalog from the drop down and for the URL copy and paste the following URL:
@@ -67,7 +67,7 @@ After importing the existing API, the first step is to configure basic security 
 #### 4 Test the API 
 In the API designer, you have the ability to test the API immediately after creation in the Assemble view.
 
-On the top Navigation, click *Assemble*.
+On the top Navigation, click **Assemble**.
 
 - Click Create assembly
 - Drag Invoke Policy
@@ -75,18 +75,18 @@ On the top Navigation, click *Assemble*.
 
 - Click invoke in the flow designer. Note the window on the right with the configuration. The invoke node calls the target-url (ie the external service).
 
-*4.1* Modify the URL field to include the request path passed in by the caller as well by appending `$(request.path)` to the URL. When you're done the field should be set to:
+**4.1** Modify the URL field to include the request path passed in by the caller as well by appending `$(request.path)` to the URL. When you're done the field should be set to:
 
 ``` $(target-url)$(request.path)```
 ![](./images/img12.png)
 
 > Save 
 
-*4.3* Click the play icon as indicated in the image below.
+**4.3** Click the play icon as indicated in the image below.
 
 ![](./images/img13.png)
 
-*4.4* From the >> button next to the Home icon, select Drafts and on the `Product` tab add a New Product. 
+**4.4** From the >> button next to the Home icon, select Drafts and on the `Product` tab add a New Product. 
 - Call it `Stock Quote` 
 ![](./images/img14.png)
 
