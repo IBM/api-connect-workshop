@@ -17,4 +17,14 @@ Let’s get started.
 1. On the IBM Cloud Dashboard, in the Cloud Foundry Services list, click the API Connect service instance. The API Connect dashboard is displayed.
 ![](./images/img4.png)
 
-2. 
+2. Add API in API Connect 
+    - Click the Dashboard tab 
+    - From the `>>` button next to the Home icon, click Drafts.
+    - Click the APIs tab.
+    - Select Add > Import API from file or URL
+
+![](./images/img6.png)
+
+- Click on `Select File` and select [stock-quote-api.yaml]() 
+
+
