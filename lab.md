@@ -75,9 +75,9 @@ On the top Navigation, click **Assemble**.
 
 - Click invoke in the flow designer. Note the window on the right with the configuration. The invoke node calls the target-url (ie the external service).
 
-**4.1** Modify the URL field to include the request path passed in by the caller as well by appending `$(request.path)` to the URL. When you're done the field should be set to:
+**4.1** Modify the URL field to include the request path passed in by the caller as well by appending ` $(target-url)$(request.path)` to the URL. When you're done the field should be set to:
 
-``` $(target-url)$(request.path)```
+
 ![](./images/img12.png)
 
 > Save 
